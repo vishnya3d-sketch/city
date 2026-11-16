@@ -1,0 +1,93 @@
+body{
+  background-color: #33251D;
+  margin: 0;
+}
+
+.section{
+  background-image: url(images/Пам’ятник_Т.Г.Шевченку_\(Ковель\)\,_02.JPG.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+}
+
+#name{
+  background: #457B9D;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.activities{
+  background-color: #4B340C ;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.activities-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+.activity img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.activity{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.activity h3{
+  color: white;
+  margin: 0;
+}
+
+.activity p{
+  color: lightgray;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+.guide{
+  padding: 50px 0;
+}
+
+.guide_card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background: #6A8A9B;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.guide_info{
+  text-align: center;
+}
+
+.guide_card img{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  
+}
